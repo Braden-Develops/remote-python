@@ -9,6 +9,20 @@ As a quick, slapped together solution I have simply opened a file share on my Wi
 
 Initially I Googled around to figure out which IDEs supported running and debugging your code on a remote machine and was happy to find that many did so. Of note, I discovered that PyCharm, the IDE I have historically preferred for Python development, has such an offering but it is limited only to users who pay for a professional license. I had no desire to pay ~$90 a year just to get this functionality, so my search continued until I discovered VS Code's 'Remote - SSH' extension. This extension allows you to connect to a remote host via SSH and work with the files located on that machine, no local files are needed. Perhaps most important for me, this extension is *free* and will work with various languages! So let's run through how to get this environment all set up so you (and I!) can get back to working on our projects.  
 
+This VS Code extension requires that your Pi is on the ARMv7 architecture or newer. This means that some older models are *not* supported.
+
+**Supported Models of Raspberry Pi**
+
+- Raspberry Pi 4
+- Compute Module 4
+- Raspberry Pi 400
+- Raspberry Pi 3
+
+**Unsupported Models of Raspberry Pi**
+- Raspberry Pi 1
+- Compute Module 1
+- Raspberry Pi Zero
+
 ## Getting Started
 1. Obviously, we need to install VS Code. You can do so [here](https://code.visualstudio.com/docs/remote/troubleshooting#_installing-a-supported-ssh-client).
 2. VS Code requires you to install extensions to get Python support, so download that [here](https://marketplace.visualstudio.com/items?itemName=ms-python.python). (As an aside, make sure that you enable linting to get syntax corrections)
