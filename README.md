@@ -45,11 +45,15 @@ This VS Code extension requires that your Pi's CPU is of the ARMv7 architecture 
 
 6. Now everything should be set up. Let's try connecting to our Raspberry Pi by clicking the little green connection button at the bottom left of the VS Code window and selecting the option to connect the current window to a host.
 
+![Image Two](./two.png)
+
 7. Type in the details to connect to your host, in the format username@hostname. These should be the same as the information you entered when we created that $USER_AT_HOST variable earlier. In my case it is ubuntu@masternode.
 
 8. If successful, there should not be any error messages and it should display the name of the server you are shelled into at the bottom left in the green box. As another check, you can hit the + symbol at the top right of the terminal pane to open a new terminal and you should see that you are logged into the remote server.
 
 9. Now try creating and running a script! I created a new directory called PythonDev on my remote machine and created a quick "Hello World!" script. As a note, you need to install the Python extension on the remote server as well if you want syntax highlighting, etc.
+
+![Image three](./three.png)
 
 That's it! Now you can do all of your development on a remote server, like a Raspberry Pi in my case, while sitting comfortably at your main workstation without having to fuss about with file sharing or pushing/pulling from Git over and over.
 
