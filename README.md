@@ -29,7 +29,7 @@ This VS Code extension requires that your Pi's CPU is of the ARMv7 architecture 
 
 3. Now that we have our IDE set up with Python enabled, we need to download the aforementioned Remote - SSH extension. Grab it from [this page](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh). Alternatively, you could install the overarching [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension that includes additional support for containers and WSL.
 
-3. Go to VS Code settings, search for remote.SSH.showlogin and enable the option to always reveal te SSH login terminal. This may save you a lot of headaches if your SSH sessions never connect, it may actually be waiting for you to accept the machines fingerprint in the console if this is your first time connecting to it.
+3. Go to VS Code settings, search for remote.SSH.showlogin and enable the option to always reveal the SSH login terminal. This may save you a lot of headaches if your SSH sessions never connect, it may actually be waiting for you to accept the machines fingerprint in the console if this is your first time connecting to it.
 
 ![Image One](./one.png)
 
